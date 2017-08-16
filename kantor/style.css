@@ -1,0 +1,28 @@
+body{
+    font-family:sans-serif;
+}
+h1{
+    font-size: 44px;
+    text-transform: uppercase;
+    color:dimgrey;
+    
+}
+
+#p{
+    text-transform: uppercase;
+    color:dimgrey;
+}
+
+input[type=text] {
+    width: 200px;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 150px;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
