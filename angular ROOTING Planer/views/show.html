@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="justin in tasks">
+        <h3>{{ justin.id }} {{ justin.title}} </h3><br> {{ justin.desc }}<br>
+        <hr>
+
+        <button type="submit" ng-click="done(justin.id)" class="btn btn-primary">Done!</button>
+    </li>
+</ul>
